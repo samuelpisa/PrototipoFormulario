@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:gravity="center_horizontal">
+    <TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_centerVertical="true">
+        <TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView android:text="Usuário" android:id="@+id/usuario" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+            <EditText android:layout_height="wrap_content" android:id="@+id/editText2" android:layout_width="300dp">
+                <requestFocus></requestFocus>
+            </EditText>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView android:text="Senha" android:id="@+id/senha" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <EditText android:inputType="textPassword" android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_width="wrap_content"></EditText>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="Acessar" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
