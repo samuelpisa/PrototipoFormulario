@@ -1,0 +1,161 @@
+2011-09-24 16:50:47,506 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Droid2.3.3 Status: OFF
+2011-09-24 16:50:47,506 [main] INFO  Studio for Android - Setting focus to Android Emulator View
+2011-09-24 16:50:47,519 [main] DEBUG class java.lang.Class - Read initial page property:studio.android.initial.page = null
+2011-09-24 16:50:47,519 [main] DEBUG class java.lang.Class - Use the default URL to be opened in the Web Browser Editor.
+2011-09-24 16:50:47,524 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Droid2.3.3 Status: com.motorola.studio.android.emulator.status.notavailable
+2011-09-24 16:50:47,537 [main] DEBUG class java.lang.Class - Open new Web Browser Editor for: file:/Applications/MOTODEV_Studio_for_Android_3.0/MOTODEV/index.html
+2011-09-24 16:50:50,379 [Worker-4] INFO  Studio for Android - Updating Android Emulator viewers
+2011-09-24 16:50:51,148 [main] DEBUG Studio for Android - No active instance being shown at emulator view
+2011-09-24 16:50:51,816 [Worker-5] INFO  class com.motorola.studio.android.installer.startup.InstallationChecker - Is there any SDK set? false
+2011-09-24 16:50:52,048 [Worker-5] DEBUG class com.motorola.studio.android.ophone.OPhonePlugin - Added SDK listener to perform configurations when an OPhone SDK is loaded.
+2011-09-24 16:50:54,763 [Worker-5] INFO  Studio for Android - [Status: id=IDLE;name=IDLE]
+2011-09-24 16:50:54,764 [Worker-5] INFO  Studio for Android - [Status: id=com.motorola.studio.android.emulator.status.offlineNoData;name=Offline (no user data)]
+2011-09-24 16:50:54,764 [Worker-5] INFO  Studio for Android - [Status: id=com.motorola.studio.android.handset.status.handsetonline;name=Online]
+2011-09-24 16:50:54,764 [Worker-5] INFO  Studio for Android - [Status: id=com.motorola.studio.android.emulator.status.online;name=Online]
+2011-09-24 16:50:54,764 [Worker-5] INFO  Studio for Android - [Status: id=com.motorola.studio.android.remote.status.connected;name=Connected]
+2011-09-24 16:50:54,764 [Worker-5] INFO  Studio for Android - [Status: id=com.motorola.studio.android.emulator.status.notavailable;name=Not available]
+2011-09-24 16:50:54,764 [Worker-5] INFO  Studio for Android - [Status: id=OFF;name=OFF]
+2011-09-24 16:50:54,764 [Worker-5] INFO  Studio for Android - [Status: id=INACTIVE;name=INACTIVE]
+2011-09-24 16:50:54,764 [Worker-5] INFO  Studio for Android - [Status: id=com.motorola.studio.android.remote.status.disconnected;name=Disconnected]
+2011-09-24 16:50:54,764 [Worker-5] INFO  Studio for Android - [Status: id=com.motorola.studio.android.emulator.status.offline;name=Offline]
+2011-09-24 16:51:04,664 [main] INFO  class com.motorola.studio.android.installer.ui.SdkDownloadPage - Using SDK at /Users/igoralves/android/android-sdk-mac_x86 2
+2011-09-24 16:51:05,569 [Worker-9] DEBUG class com.motorola.studio.android.AndroidPlugin - Notify SDK loader listeners
+2011-09-24 16:51:05,634 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Droid2.3.3 Status: com.motorola.studio.android.emulator.status.offline
+2011-09-24 16:51:05,632 [Worker-10] DEBUG class com.motorola.studio.android.AndroidPlugin - Notify SDK loader listeners
+2011-09-24 16:51:05,637 [Worker-9] DEBUG class com.motorola.studio.android.ophone.OPhonePlugin$1 - An SDK was just loaded. Check if it is an OPhone SDK
+2011-09-24 16:51:05,639 [Worker-10] DEBUG class com.motorola.studio.android.ophone.OPhonePlugin$1 - An SDK was just loaded. Check if it is an OPhone SDK
+2011-09-24 16:51:06,264 [Thread-12] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 16:51:06,269 [Thread-12] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 16:51:06,365 [Thread-13] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 16:51:06,366 [Thread-13] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 16:51:06,407 [Thread-14] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 16:51:06,407 [Thread-14] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 16:51:06,412 [Thread-12] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 16:51:06,413 [Thread-13] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 16:51:06,413 [Thread-14] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 16:51:06,433 [Thread-15] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 16:51:06,433 [Thread-15] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 16:51:06,433 [Thread-15] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 16:51:06,450 [Thread-16] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 16:51:06,451 [Thread-16] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 16:51:06,451 [Thread-16] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 16:51:06,469 [Thread-17] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 16:51:06,469 [Thread-17] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 16:51:06,470 [Thread-17] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 16:51:06,490 [Thread-18] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 16:51:06,490 [Thread-18] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 16:51:06,491 [Thread-18] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 16:51:06,514 [Thread-19] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 16:51:06,514 [Thread-19] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 16:51:06,514 [Thread-19] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 16:51:06,534 [Thread-20] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 16:51:06,534 [Thread-20] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 16:51:06,534 [Thread-20] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 16:51:06,554 [Thread-21] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 16:51:06,554 [Thread-21] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 16:51:06,555 [Thread-21] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 16:51:06,639 [Thread-10] INFO  class com.motorola.studio.android.videos.ui.utils.UiUtilities$2 - Thread displaying animated GIF was interrupted: /Applications/MOTODEV_Studio_for_Android_3.0/configuration/org.eclipse.osgi/bundles/27/1/.cp/icons/loading_icon.gif
+2011-09-24 16:51:06,641 [Worker-1] INFO  Studio for Android - Updating Android Emulator viewers
+2011-09-24 16:51:07,123 [Thread-21] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 16:51:07,123 [Thread-21] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 16:51:07,190 [Thread-18] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 16:51:07,190 [Thread-18] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 16:51:07,241 [Thread-17] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 16:51:07,241 [Thread-17] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 16:51:07,292 [Thread-14] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 16:51:07,292 [Thread-14] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 16:51:07,497 [Thread-19] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 16:51:07,567 [Thread-19] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 16:51:07,431 [Thread-20] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 16:51:07,361 [Thread-13] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 16:51:07,568 [Thread-13] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 16:51:07,568 [Thread-20] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 16:51:07,567 [Thread-16] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 16:51:07,568 [Thread-16] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 16:51:07,636 [Thread-15] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 16:51:07,636 [Thread-15] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 16:51:07,702 [Thread-12] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 16:51:07,703 [Thread-12] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 16:51:09,197 [main] DEBUG Studio for Android - No active instance being shown at emulator view
+2011-09-24 16:51:11,819 [Worker-5] INFO  class com.motorola.studio.android.installer.ui.SdkDownloadPage - Using SDK at /Users/igoralves/android/android-sdk-mac_x86 2
+2011-09-24 16:51:12,085 [Worker-0] DEBUG class com.motorola.studio.android.AndroidPlugin - Notify SDK loader listeners
+2011-09-24 16:51:12,086 [Worker-0] DEBUG class com.motorola.studio.android.ophone.OPhonePlugin$1 - An SDK was just loaded. Check if it is an OPhone SDK
+2011-09-24 16:51:12,766 [Worker-5] INFO  class com.motorola.studio.android.installer.jobs.InstallComponentsJob - All ius were successfully installed. All configuration hooks executed. Closing components dialog.
+2011-09-24 17:02:45,203 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Droid2.3.3 Status: OFF
+2011-09-24 17:02:45,203 [main] INFO  Studio for Android - Setting focus to Android Emulator View
+2011-09-24 17:02:45,213 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Droid2.3.3 Status: com.motorola.studio.android.emulator.status.notavailable
+2011-09-24 17:02:45,220 [main] DEBUG class java.lang.Class - Read initial page property:studio.android.initial.page = null
+2011-09-24 17:02:45,220 [main] DEBUG class java.lang.Class - Use the default URL to be opened in the Web Browser Editor.
+2011-09-24 17:02:45,257 [main] DEBUG class java.lang.Class - Open new Web Browser Editor for: file:/Applications/MOTODEV_Studio_for_Android_3.0/MOTODEV/index.html
+2011-09-24 17:02:46,503 [Worker-10] INFO  Studio for Android - Updating Android Emulator viewers
+2011-09-24 17:02:46,657 [main] DEBUG Studio for Android - No active instance being shown at emulator view
+2011-09-24 17:02:46,708 [Worker-12] INFO  class com.motorola.studio.android.installer.startup.InstallationChecker - Is there any SDK set? true
+2011-09-24 17:02:46,974 [Worker-12] DEBUG class com.motorola.studio.android.ophone.OPhonePlugin - Added SDK listener to perform configurations when an OPhone SDK is loaded.
+2011-09-24 17:02:47,238 [Worker-12] INFO  Studio for Android - [Status: id=IDLE;name=IDLE]
+2011-09-24 17:02:47,238 [Worker-12] INFO  Studio for Android - [Status: id=com.motorola.studio.android.emulator.status.offlineNoData;name=Offline (no user data)]
+2011-09-24 17:02:47,238 [Worker-12] INFO  Studio for Android - [Status: id=com.motorola.studio.android.handset.status.handsetonline;name=Online]
+2011-09-24 17:02:47,238 [Worker-12] INFO  Studio for Android - [Status: id=com.motorola.studio.android.emulator.status.online;name=Online]
+2011-09-24 17:02:47,238 [Worker-12] INFO  Studio for Android - [Status: id=com.motorola.studio.android.remote.status.connected;name=Connected]
+2011-09-24 17:02:47,238 [Worker-12] INFO  Studio for Android - [Status: id=com.motorola.studio.android.emulator.status.notavailable;name=Not available]
+2011-09-24 17:02:47,238 [Worker-12] INFO  Studio for Android - [Status: id=OFF;name=OFF]
+2011-09-24 17:02:47,238 [Worker-12] INFO  Studio for Android - [Status: id=INACTIVE;name=INACTIVE]
+2011-09-24 17:02:47,238 [Worker-12] INFO  Studio for Android - [Status: id=com.motorola.studio.android.remote.status.disconnected;name=Disconnected]
+2011-09-24 17:02:47,238 [Worker-12] INFO  Studio for Android - [Status: id=com.motorola.studio.android.emulator.status.offline;name=Offline]
+2011-09-24 17:02:47,572 [Worker-11] DEBUG class com.motorola.studio.android.AndroidPlugin - Notify SDK loader listeners
+2011-09-24 17:02:47,572 [Worker-11] DEBUG class com.motorola.studio.android.ophone.OPhonePlugin$1 - An SDK was just loaded. Check if it is an OPhone SDK
+2011-09-24 17:02:47,578 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Droid2.3.3 Status: com.motorola.studio.android.emulator.status.offline
+2011-09-24 17:02:48,798 [Worker-8] DEBUG class com.motorola.studio.android.AndroidPlugin - Notify SDK loader listeners
+2011-09-24 17:02:48,798 [Worker-8] DEBUG class com.motorola.studio.android.ophone.OPhonePlugin$1 - An SDK was just loaded. Check if it is an OPhone SDK
+2011-09-24 17:02:49,925 [Worker-5] INFO  Studio for Android - Updating Android Emulator viewers
+2011-09-24 17:02:49,977 [main] DEBUG Studio for Android - No active instance being shown at emulator view
+2011-09-24 17:02:50,049 [Thread-11] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 17:02:50,050 [Thread-11] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 17:02:50,101 [Thread-11] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 17:02:50,182 [Thread-12] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 17:02:50,183 [Thread-12] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 17:02:50,184 [Thread-12] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 17:02:50,212 [Thread-13] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 17:02:50,212 [Thread-13] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 17:02:50,213 [Thread-13] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 17:02:50,235 [Thread-14] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 17:02:50,235 [Thread-14] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 17:02:50,236 [Thread-14] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 17:02:50,257 [Thread-15] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 17:02:50,257 [Thread-15] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 17:02:50,258 [Thread-15] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 17:02:50,282 [Thread-16] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 17:02:50,282 [Thread-16] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 17:02:50,282 [Thread-16] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 17:02:50,313 [Thread-17] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 17:02:50,313 [Thread-17] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 17:02:50,314 [Thread-17] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 17:02:50,342 [Thread-18] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 17:02:50,342 [Thread-18] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 17:02:50,342 [Thread-18] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 17:02:50,363 [Thread-19] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 17:02:50,363 [Thread-19] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 17:02:50,364 [Thread-19] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 17:02:50,383 [Thread-20] DEBUG class java.lang.Class - Verifying proxy usage for opening http connection
+2011-09-24 17:02:50,383 [Thread-20] DEBUG class java.lang.Class - Using http proxy
+2011-09-24 17:02:50,383 [Thread-20] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Attempting to make a connection
+2011-09-24 17:02:50,489 [Thread-10] INFO  class com.motorola.studio.android.videos.ui.utils.UiUtilities$2 - Thread displaying animated GIF was interrupted: /Applications/MOTODEV_Studio_for_Android_3.0/configuration/org.eclipse.osgi/bundles/27/1/.cp/icons/loading_icon.gif
+2011-09-24 17:02:50,753 [Thread-12] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 17:02:50,753 [Thread-12] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 17:02:50,915 [Thread-13] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 17:02:50,916 [Thread-13] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 17:02:50,916 [Thread-11] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 17:02:50,916 [Thread-11] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 17:02:51,075 [Thread-14] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 17:02:51,075 [Thread-14] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 17:02:51,076 [Thread-16] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 17:02:51,076 [Thread-16] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 17:02:51,080 [Thread-17] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 17:02:51,080 [Thread-17] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 17:02:51,128 [Thread-19] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 17:02:51,128 [Thread-19] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 17:02:51,191 [Thread-20] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 17:02:51,191 [Thread-20] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 17:02:51,344 [Thread-15] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 17:02:51,344 [Thread-15] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
+2011-09-24 17:02:51,417 [Thread-18] DEBUG class java.lang.Class - Http connection suceeded
+2011-09-24 17:02:51,417 [Thread-18] INFO  class com.motorola.studio.android.installer.utilities.http.HttpUtils - Retrieving site content
