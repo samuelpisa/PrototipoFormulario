@@ -10,5 +10,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListaFormularioActivity"/>
+        <provider
+            android:authorities="com.providers.formulariosdataprovider" android:name="com.providers.FormulariosDataProvider"/>
     </application>
 </manifest>
