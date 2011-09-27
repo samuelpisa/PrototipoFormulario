@@ -8,7 +8,7 @@
             <TextView android:text="Usuário" android:id="@+id/usuario" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
         </TableRow>
         <TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
-            <EditText android:layout_height="wrap_content" android:id="@+id/editText2" android:layout_width="300dp">
+            <EditText android:layout_height="wrap_content" android:id="@+id/editText2" android:layout_width="300dp" android:layout_weight="1">
                 <requestFocus></requestFocus>
             </EditText>
         </TableRow>
@@ -16,10 +16,10 @@
             <TextView android:text="Senha" android:id="@+id/senha" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
         </TableRow>
         <TableRow android:id="@+id/tableRow4" android:layout_height="wrap_content" android:layout_width="wrap_content">
-            <EditText android:inputType="textPassword" android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_width="wrap_content"></EditText>
+            <EditText android:inputType="textPassword" android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_weight="1" android:layout_width="0dp"></EditText>
         </TableRow>
-        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <Button android:text="Acessar" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+        <TableRow android:id="@+id/tableRow5" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <Button android:text="Acessar" android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="1"></Button>
         </TableRow>
     </TableLayout>
 </RelativeLayout>

@@ -10,7 +10,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListaFormularioActivity"/>
+<<<<<<< HEAD
         <provider
             android:authorities="com.providers.formulariosdataprovider" android:name="com.providers.FormulariosDataProvider"/>
+=======
+        <activity android:name=".Questao1Activity"/>
+        <activity android:name=".Questao2Activity"/>
+>>>>>>> telas de questoes e menu
     </application>
 </manifest>

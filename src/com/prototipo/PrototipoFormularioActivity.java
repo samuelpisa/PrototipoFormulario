@@ -24,4 +24,6 @@ public class PrototipoFormularioActivity extends Activity {
 			}
 		});
     }
+    
+    
 }

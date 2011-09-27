@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Por qual motivo seus pais transferiram você para o Colégio?"></TextView>
+    <EditText android:layout_width="match_parent" android:id="@+id/editText1" android:layout_height="wrap_content" android:inputType="textMultiLine">
+        <requestFocus></requestFocus>
+    </EditText>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_gravity="clip_vertical" android:layout_width="match_parent" android:orientation="horizontal" android:layout_height="match_parent">
+         <Button android:layout_width="wrap_content" android:layout_gravity="bottom" android:layout_height="wrap_content" android:text="Voltar" android:id="@+id/btvoltar"></Button>
+         <Button android:layout_gravity="bottom" android:layout_height="wrap_content" android:text="Avançar" android:layout_width="match_parent" android:id="@+id/btavancar"></Button>
+     </LinearLayout>
+</LinearLayout>

@@ -14,11 +14,13 @@
 package com.prototipo;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class ListaFormularioActivity extends ListActivity {
 
@@ -40,10 +42,21 @@ public class ListaFormularioActivity extends ListActivity {
 	@Override
 	protected void onListItemClick(ListView lv, View v, int position, long id) {
 		// your action here
-		Toast.makeText(
+		/*Toast.makeText(
 				lv.getContext(),
 				getString(R.string.sample_simple_list_selected)
 						+ lv.getItemAtPosition(position).toString(),
 				Toast.LENGTH_SHORT).show();
+				*/
+		startActivity(new Intent(this, Questao1Activity.class));
+		finish();
 	}
+	
+	@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+       super.onCreateOptionsMenu(menu);
+       MenuInflater inflater = getMenuInflater();
+       inflater.inflate(R.menu.menu, menu);
+       return true;
+    }
 }
