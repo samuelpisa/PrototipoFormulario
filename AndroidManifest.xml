@@ -12,7 +12,7 @@
         <activity android:name=".ListaFormularioActivity"/>
 
         <provider
-            android:authorities="com.providers.formulariosdataprovider" android:name="com.providers.FormulariosDataProvider"/>
+            android:authorities="com.provider.formsdataprovider" android:name="com.provider.FormsDataProvider"/>
 
         <activity android:name=".Questao1Activity"/>
         <activity android:name=".Questao2Activity"/>

@@ -1,13 +1,13 @@
-package com.providers;
+package com.provider;
 
 import android.content.ContentProvider;
 import android.net.Uri;
 import android.content.ContentValues;
 import android.database.Cursor;
 
-public class FormulariosDataProvider extends ContentProvider {
+public class FormsDataProvider extends ContentProvider {
 	public static final Uri CONTENT_URI = Uri
-			.parse("content://com.providers.formulariosdataprovider");
+			.parse("content://com.providers.formsdataprovider");
 
 	/**
 	 * @see android.content.ContentProvider#delete(Uri,String,String[])
