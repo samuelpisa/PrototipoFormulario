@@ -3,16 +3,16 @@ package com.provider;
 import java.util.HashMap;
 
 import android.content.ContentProvider;
-import android.net.Uri;
+import android.content.ContentUris;
 import android.content.ContentValues;
+import android.content.Context;
+import android.content.UriMatcher;
 import android.database.Cursor;
-import android.content.ContentUris;  
-import android.content.Context;  
-import android.content.UriMatcher;  
-import android.provider.BaseColumns;   
-import android.database.sqlite.SQLiteDatabase;  
-import android.database.sqlite.SQLiteOpenHelper;  
-import android.database.sqlite.SQLiteQueryBuilder;  
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+import android.database.sqlite.SQLiteQueryBuilder;
+import android.net.Uri;
+import android.provider.BaseColumns;
 
 public class FormsDataProvider extends ContentProvider {
 	public static final Uri CONTENT_URI = Uri
