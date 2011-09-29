@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:overScrollMode="always" 
+        android:isScrollContainer="true" 
+        android:scrollbarAlwaysDrawVerticalTrack="true" 
+        android:scrollbarStyle="outsideInset" 
+        android:scrollbars="vertical">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Quais ambientes (redes sociais) você costuma ter acesso?"></TextView>
+    <CheckBox android:text="Orkut" android:id="@+id/ck1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="Twitter" android:id="@+id/ck2" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="Facebook" android:id="@+id/ck3" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="MySpace" android:id="@+id/ck4" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="Msn" android:id="@+id/ck5" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="Youtube" android:id="@+id/ck6" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="Skype" android:id="@+id/ck7" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="Outro" android:id="@+id/ck8" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="Não acesso esses ambientes da internet" android:id="@+id/ck9" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_gravity="clip_vertical" android:layout_width="match_parent" android:orientation="horizontal" android:layout_height="match_parent">
+         <Button android:layout_width="wrap_content" android:layout_gravity="bottom" android:layout_height="wrap_content" android:text="Voltar" android:id="@+id/btvoltar"></Button>
+         <Button android:layout_gravity="bottom" android:layout_height="wrap_content" android:text="Avançar" android:layout_width="match_parent" android:id="@+id/btavancar"></Button>
+     </LinearLayout>
+</LinearLayout>
+</ScrollView>

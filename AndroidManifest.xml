@@ -10,12 +10,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListaFormularioActivity"/>
-
-        <provider
-            android:authorities="com.provider.formsdataprovider" android:name="com.provider.FormsDataProvider"/>
-
+        <provider android:authorities="com.provider.formsdataprovider" android:name="com.provider.FormsDataProvider"/>
         <activity android:name=".Questao1Activity"/>
         <activity android:name=".Questao2Activity"/>
-
+        <activity android:name=".Questao3Activity"/>
+        <activity android:name=".Questao4Activity"/>
     </application>
 </manifest>
