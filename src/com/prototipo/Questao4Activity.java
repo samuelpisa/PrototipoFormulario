@@ -19,7 +19,7 @@ public class Questao4Activity extends Activity {
 
 		final Button btAvancar = (Button) findViewById(R.id.btavancar);
 		final Button btVoltar = (Button) findViewById(R.id.btvoltar);
-		//final Intent questao5 = new Intent(this, Questao5Activity.class);
+		final Intent questao5 = new Intent(this, Questao5Activity.class);
 		final Intent questao3 = new Intent(this, Questao3Activity.class);
 		
 		final CheckBox ck1 = (CheckBox) findViewById(R.id.ck1);
@@ -74,7 +74,7 @@ public class Questao4Activity extends Activity {
 		 btAvancar.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View arg) {
-					//startActivity(questao5);
+					startActivity(questao5);
 				}
 		 });
 	}

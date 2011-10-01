@@ -1,6 +1,6 @@
 /*
  ******************************************************************************
- * Parts of this code sample are licensed under Apache License, Version 2.0   *
+S * Parts of this code sample are licensed under Apache License, Version 2.0   *
  * Copyright (c) 2009, Android Open Handset Alliance. All rights reserved.    *
  *                                                                            *                                                                         *
  * Except as noted, this code sample is offered under a modified BSD license. *
