@@ -6,31 +6,36 @@
   android:layout_height="match_parent">
     <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:text="Sobre esta pesquisa:" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content"></TextView>
     <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1">
-            
-            <TextView android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
-            <TextView android:layout_height="wrap_content" android:text="Ótimo" android:id="@+id/textView4" android:layout_width="60dip" android:layout_weight="1"></TextView>
-            <TextView android:layout_width="60dip" android:layout_height="wrap_content" android:text="Regular" android:id="@+id/textView5" android:layout_weight="1"></TextView>
-            <TextView android:layout_width="60dip" android:layout_height="wrap_content" android:text="Ruim" android:id="@+id/textView6" android:layout_weight="1"></TextView>
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:baselineAligned="true">
+            <TextView android:id="@+id/textView3" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_weight="0"></TextView>
+            <TextView android:layout_height="wrap_content" android:text="Ótimo" android:id="@+id/textView4" android:layout_width="0dp" android:layout_weight="1"></TextView>
+            <TextView android:layout_height="wrap_content" android:text="Regular" android:id="@+id/textView5" android:layout_width="0dp" android:layout_weight="1"></TextView>
+            <TextView android:text="Ruim" android:id="@+id/textView6" android:layout_height="wrap_content" android:layout_width="0dp" android:layout_weight="1" android:layout_gravity="center_horizontal"></TextView>
         </TableRow>
-        <TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="1">
-            <TextView android:text="Maneira como foi realizada (via internet)" android:id="@+id/textView2" android:layout_width="40dip" android:layout_weight="1" android:layout_height="match_parent"></TextView>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:baselineAligned="true" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:text="Maneira como foi realizada (via internet)" android:id="@+id/textView2" android:layout_width="40dip" android:layout_height="match_parent" android:layout_weight="1"></TextView>
+            <RadioGroup android:orientation="horizontal" android:layout_width="150dp" android:layout_weight="1">
             <RadioButton android:text="" android:id="@+id/rbr1c1" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="match_parent"></RadioButton>
-            <RadioButton android:text="" android:id="@+id/rbr1c2" android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent"></RadioButton>
+            <RadioButton android:text="" android:id="@+id/rbr1c2" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="wrap_content"></RadioButton>
             <RadioButton android:id="@+id/rbr1c3" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="match_parent"></RadioButton>
+            </RadioGroup>
         </TableRow>
-        <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:baselineAligned="true" android:layout_height="wrap_content" android:layout_weight="1">
-            <TextView android:text="Facilidade para entender as questões" android:id="@+id/textView7" android:layout_weight="1" android:layout_width="40dip" android:layout_height="match_parent"></TextView>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:baselineAligned="true" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:text="Facilidade para entender as questões" android:id="@+id/textView7" android:layout_width="40dip" android:layout_height="match_parent" android:layout_weight="1"></TextView>
+            <RadioGroup android:orientation="horizontal" android:layout_width="150dp" android:layout_weight="1">
             <RadioButton android:text="" android:id="@+id/rbr2c1" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="match_parent"></RadioButton>
             <RadioButton android:text="" android:id="@+id/rbr2c2" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="match_parent"></RadioButton>
             <RadioButton android:text="" android:id="@+id/rbr2c3" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="match_parent"></RadioButton>
+            </RadioGroup>
         </TableRow>
-        <TableRow android:id="@+id/tableRow4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1">
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
             <TextView android:layout_width="wrap_content" android:text="Satisfação em participar" android:id="@+id/textView8" android:layout_weight="1" android:layout_height="match_parent"></TextView>
+            <RadioGroup android:orientation="horizontal" android:layout_width="150dp" android:layout_weight="1">
             <RadioButton android:text="" android:id="@+id/rbr3c1" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="match_parent"></RadioButton>
             <RadioButton android:text="" android:id="@+id/rbr3c2" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="match_parent"></RadioButton>
             <RadioButton android:text="" android:id="@+id/rbr3c3" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="match_parent"></RadioButton>
-</TableRow>
+            </RadioGroup>
+            </TableRow>
     </TableLayout>
     <LinearLayout android:id="@+id/linearLayout1" android:layout_gravity="clip_vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal">
         <Button android:id="@+id/btvoltar" android:text="Voltar" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>

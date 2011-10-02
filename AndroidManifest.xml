@@ -15,5 +15,7 @@
         <activity android:name=".Questao2Activity"/>
         <activity android:name=".Questao3Activity"/>
         <activity android:name=".Questao4Activity"/>
+        <activity android:name=".Questao5Activity"/>
+        <activity android:name=".Questao6Activity"/>
     </application>
 </manifest>
