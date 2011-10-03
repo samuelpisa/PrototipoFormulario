@@ -1,6 +1,7 @@
 package com.prototipo;
 
 import android.app.Activity;
+import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -13,15 +14,6 @@ public class PrototipoFormularioActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
-        DbHelper dbHelper = new DbHelper(PrototipoFormularioActivity.this);
-        SQLiteDatabase db =  dbHelper.getWritableDatabase();
-        
-         
-        
-        dbHelper.close();
-        db.close();
-        
         
         
         final Button btAcessar = (Button) findViewById(R.id.button1);
