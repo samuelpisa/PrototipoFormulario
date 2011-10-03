@@ -31,26 +31,15 @@ public class Questao1Activity extends Activity {
         
         ContentValues values = new ContentValues();
         
-        // dbHelper.truncateDB(db);
-         
-       // TextView textView =  (TextView) findViewById(R.id.textView1);
-          
-        
-
         values.put(DbHelper.QUESTION_DESC, "DESCRICAO DA QUESTAO" );
     
         db.insert(DbHelper.TABLE_QUESTIONS, null, values);
         
         values.clear();
-    
-        //ID DA ALTERNATIVA TA COMO AUTOINCREMENT
      
         values.put(DbHelper.ALTERNATIVE_DESC, "DESCRICAO DA ALTERNATIVA" );
         values.put(DbHelper.ALTERNATIVE_QUESTION_ID, 1 );
-        
-        //db.insert(DbHelper.TABLE_ALTERNATIVES, null, values);
-        db.execSQL("insert into alternatives values(null,\"asdasdas\", 1)");
-        
+    
         dbHelper.close();
         db.close();
         // NAO ESQÇAM DE FEIXAR A CONEXAO COM O BD
