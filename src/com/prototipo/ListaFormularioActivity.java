@@ -35,8 +35,17 @@ public class ListaFormularioActivity extends ListActivity {
 		//listItems = res.getStringArray(R.array.sample_simple_list_items);
 
 		// maps an array to TextViews
+		//setListAdapter(new ArrayAdapter<String>(this,
+		//		android.R.layout.simple_list_item_1, listItems));
+		
 		setListAdapter(new ArrayAdapter<String>(this,
-				android.R.layout.simple_list_item_1, listItems));
+						R.layout.list_item, listItems));
+		
+		
+		
+		
+		
+		
 	}
 
 	@Override

@@ -3,15 +3,16 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:orientation="vertical"
   android:layout_width="match_parent"
-  android:layout_height="match_parent">
-    <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Você já estudou em outra Escola anteriormente?" android:id="@+id/pergunta1"></TextView>
+  android:layout_height="match_parent"
+  android:background="@color/style_backround">
+    <TextView android:textColor="@color/style_textcolor" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Você já estudou em outra Escola anteriormente?" android:id="@+id/pergunta1"></TextView>
      <RadioGroup
       android:layout_width="fill_parent"
       android:layout_height="wrap_content"
       android:orientation="vertical">
-    <RadioButton android:text="Sim, em outra escola particular" android:id="@+id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
-    <RadioButton android:text="Sim, em um outra escola estadual/municipal (público)" android:id="@+id/radioButton2" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
-    <RadioButton android:text="Não, sempre estudei no Colégio GEO" android:id="@+id/radioButton3" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+    <RadioButton android:textColor="@color/style_textcolor" android:text="Sim, em outra escola particular" android:id="@+id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+    <RadioButton android:textColor="@color/style_textcolor" android:text="Sim, em um outra escola estadual/municipal (público)" android:id="@+id/radioButton2" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+    <RadioButton android:textColor="@color/style_textcolor" android:text="Não, sempre estudei no Colégio GEO" android:id="@+id/radioButton3" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
     </RadioGroup>
      <LinearLayout android:id="@+id/linearLayout1" android:layout_gravity="clip_vertical" android:layout_width="match_parent" android:orientation="horizontal" android:layout_height="match_parent">
          <Button android:layout_width="wrap_content" android:layout_gravity="bottom" android:layout_height="wrap_content" android:text="Voltar" android:id="@+id/btvoltar"></Button>

@@ -5,7 +5,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
-import android.provider.Contacts.Intents.Insert;
 import android.util.Log;
 
 public class DbHelper extends SQLiteOpenHelper {
@@ -26,11 +25,11 @@ public class DbHelper extends SQLiteOpenHelper {
 	public static final String ALTERNATIVE_QUESTION_ID= "idQuestion";
 	
 	
-	private Context context;
+	//private Context context;
 	
 	public DbHelper(Context context) {
 		super(context, DB_NAME, null, DB_VERSION);
-		this.context = context;
+		//this.context = context;
 	}
 
 	@Override

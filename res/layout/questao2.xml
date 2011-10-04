@@ -3,8 +3,9 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:orientation="vertical"
   android:layout_width="match_parent"
-  android:layout_height="match_parent">
-    <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Por qual motivo seus pais transferiram você para o Colégio?"></TextView>
+  android:layout_height="match_parent"
+  android:background="@color/style_backround">
+    <TextView android:textColor="@color/style_textcolor" android:layout_width="wrap_content" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Por qual motivo seus pais transferiram você para o Colégio?"></TextView>
     <EditText android:layout_width="match_parent" android:id="@+id/editText1" android:layout_height="wrap_content" android:inputType="textMultiLine">
         <requestFocus></requestFocus>
     </EditText>

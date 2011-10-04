@@ -6,7 +6,8 @@
         android:isScrollContainer="true" 
         android:scrollbarAlwaysDrawVerticalTrack="true" 
         android:scrollbarStyle="outsideInset" 
-        android:scrollbars="vertical">
+        android:scrollbars="vertical"
+        android:background="@color/style_backround">
 
 <LinearLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
@@ -14,15 +15,15 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent">
   
-  <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Por qual motivo seus pais matricularam você no Colégio?" android:id="@+id/pergunta1"></TextView>
-  <CheckBox android:text="Qualidade de ensino" android:id="@+id/ck1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
-  <CheckBox android:text="Professores" android:id="@+id/ck2" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
-  <CheckBox android:text="Preço da mensalidade" android:id="@+id/ck3" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
-  <CheckBox android:text="Indicação de outra pessoa" android:id="@+id/ck4" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
-  <CheckBox android:text="Qualidade do Sistema de Ensino adotado" android:id="@+id/ck5" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
-  <CheckBox android:text="Proximidade da residência" android:id="@+id/ck6" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
-  <CheckBox android:text="Localização" android:id="@+id/ck7" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
-  <CheckBox android:text="Outro" android:id="@+id/ck8" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+  <TextView android:textColor="@color/style_textcolor" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Por qual motivo seus pais matricularam você no Colégio?" android:id="@+id/pergunta1"></TextView>
+  <CheckBox android:textColor="@color/style_textcolor" android:text="Qualidade de ensino" android:id="@+id/ck1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+  <CheckBox android:textColor="@color/style_textcolor" android:text="Professores" android:id="@+id/ck2" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+  <CheckBox android:textColor="@color/style_textcolor" android:text="Preço da mensalidade" android:id="@+id/ck3" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+  <CheckBox android:textColor="@color/style_textcolor" android:text="Indicação de outra pessoa" android:id="@+id/ck4" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+  <CheckBox android:textColor="@color/style_textcolor" android:text="Qualidade do Sistema de Ensino adotado" android:id="@+id/ck5" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+  <CheckBox android:textColor="@color/style_textcolor" android:text="Proximidade da residência" android:id="@+id/ck6" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+  <CheckBox android:textColor="@color/style_textcolor" android:text="Localização" android:id="@+id/ck7" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+  <CheckBox android:textColor="@color/style_textcolor" android:text="Outro" android:id="@+id/ck8" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
   <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText1">
       <requestFocus></requestFocus>
   </EditText>
