@@ -18,7 +18,7 @@ public class Questao6Activity extends Activity {
 		
 		Button btVoltar = (Button) findViewById(R.id.btvoltar);
 		Button btAvancar = (Button) findViewById(R.id.btavancar);
-		final Intent lista = new Intent(this, ListaFormularioActivity.class);
+		final Intent questao5 = new Intent(this, Questao5Activity.class);
 	//	final Intent questao2 = new Intent(this, Questao2Activity.class);
 		
 		
@@ -28,13 +28,13 @@ public class Questao6Activity extends Activity {
 		 btVoltar.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View arg) {
-					startActivity(lista);
+					startActivity(questao5);
 				}
 		 });
 		 btAvancar.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View arg) {
-					startActivity(lista);
+					//startActivity(lista);
 				}
 		 });
 	}
