@@ -5,3 +5,5 @@ bin/
 .metadata/
 .DS_Store
 gen/com/prototipo/R.java
+gen/
+R.java
