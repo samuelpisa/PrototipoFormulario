@@ -57,6 +57,7 @@ public class DbHelper extends SQLiteOpenHelper {
 		for (String v : listOfValues) {
 			values.put(QUESTION_DESC, v);
 			db.insert(TABLE_QUESTIONS, null, values);
+			values.clear();
 		}		
 	}
 
