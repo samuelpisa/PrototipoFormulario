@@ -25,27 +25,14 @@ public class Questao1Activity extends Activity {
 		final Intent lista = new Intent(this, ListaFormularioActivity.class);
 		final Intent questao2 = new Intent(this, Questao2Activity.class);
 		
-		//POR ENQUANTO INSIRA ASSIM DESSE JEITO TOSCO MESMO!!! 
+		//EXEMPLO DO INSERT 
         DbHelper dbHelper = new DbHelper(Questao1Activity.this);
-        SQLiteDatabase db =  dbHelper.getWritableDatabase();
         
-        ContentValues values = new ContentValues();
-        
-        values.put(DbHelper.QUESTION_DESC, "DESCRICAO DA QUESTAO" );
-    
-        db.insert(DbHelper.TABLE_QUESTIONS, null, values);
-        
-        values.clear();
-     
-        values.put(DbHelper.ALTERNATIVE_DESC, "DESCRICAO DA ALTERNATIVA" );
-        values.put(DbHelper.ALTERNATIVE_QUESTION_ID, 1 );
-        
-        db.insert(DbHelper.TABLE_ALTERNATIVES, null, values);
-    
-        dbHelper.close();
-        db.close();
-        // NAO ESQÇAM DE FEIXAR A CONEXAO COM O BD
+        int idQuestion = 1;
+        dbHelper.insertAlternative(dbHelper.getWritableDatabase(), "DESCRICAO DA ALTERNATIVA", idQuestion);
 		
+        dbHelper.close();
+        //FIM DO EXEMPLO DO INSERT
 		
 		 btVoltar.setOnClickListener(new View.OnClickListener() {
 				@Override
