@@ -4,10 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.EditText;
 
 public class Questao5Activity extends Activity {
 	/**
@@ -23,7 +21,7 @@ public class Questao5Activity extends Activity {
 	CheckBox ck6;
 	CheckBox ck7;
 	CheckBox ck8;
-	EditText edit;
+	CheckBox ck9;
 	
 	
 	
@@ -35,11 +33,9 @@ public class Questao5Activity extends Activity {
 		
 		Button btVoltar = (Button) findViewById(R.id.btvoltar);
 		Button btAvancar = (Button) findViewById(R.id.btavancar);
-		final Intent questao4 = new Intent(this, Questao4Activity.class);
+		final Intent lista = new Intent(this, ListaFormularioActivity.class);
 		final Intent questao6 = new Intent(this, Questao6Activity.class);
 		
-		edit = (EditText) findViewById(R.id.editText1);
-		edit.setVisibility(View.INVISIBLE);
 		
 		ck1 = (CheckBox) findViewById(R.id.ck1);
 		ck2 = (CheckBox) findViewById(R.id.ck2);
@@ -49,17 +45,9 @@ public class Questao5Activity extends Activity {
 		ck6 = (CheckBox) findViewById(R.id.ck6);
 		ck7 = (CheckBox) findViewById(R.id.ck7);
 		ck8 = (CheckBox) findViewById(R.id.ck8);
+		ck9 = (CheckBox) findViewById(R.id.ck9);
 		
-		ck8.setOnClickListener(new OnClickListener() {
-		    public void onClick(View v) {
-		        // Perform action on clicks, depending on whether it's now checked
-		        if (((CheckBox) v).isChecked()) {
-		            edit.setVisibility(View.VISIBLE);
-		        } else {
-		        	 edit.setVisibility(View.INVISIBLE);
-		        }
-		    }
-		});
+		
 		
 		
 		
@@ -69,7 +57,7 @@ public class Questao5Activity extends Activity {
 		 btVoltar.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View arg) {
-					startActivity(questao4);
+					startActivity(lista);
 				}
 		 });
 		 btAvancar.setOnClickListener(new View.OnClickListener() {

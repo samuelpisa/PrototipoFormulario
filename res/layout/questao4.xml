@@ -11,8 +11,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:orientation="vertical"
   android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:id="@+id/linearlayout">
+  android:layout_height="match_parent">
     <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Quais ambientes (redes sociais) você costuma ter acesso?"></TextView>
     <CheckBox android:text="Orkut" android:id="@+id/ck1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
     <CheckBox android:text="Twitter" android:id="@+id/ck2" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>

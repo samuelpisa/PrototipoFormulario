@@ -5,11 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.EditText;
-import android.widget.LinearLayout;
 
 public class Questao4Activity extends Activity {
 	/**
@@ -24,10 +21,6 @@ public class Questao4Activity extends Activity {
 		final Button btVoltar = (Button) findViewById(R.id.btvoltar);
 		final Intent questao5 = new Intent(this, Questao5Activity.class);
 		final Intent questao3 = new Intent(this, Questao3Activity.class);
-		
-		final LinearLayout layout = (LinearLayout) findViewById(R.id.linearlayout);
-		final EditText edit=new EditText(this);
-	    
 		
 		final CheckBox ck1 = (CheckBox) findViewById(R.id.ck1);
 		final CheckBox ck2 = (CheckBox) findViewById(R.id.ck2);
@@ -59,7 +52,6 @@ public class Questao4Activity extends Activity {
 		            ck6.setEnabled(false);
 		            ck7.setEnabled(false);
 		            ck8.setEnabled(false);
-		            layout.removeView(edit);
 		        } else {
 		        	ck1.setEnabled(true);
 		        	ck2.setEnabled(true);
@@ -69,20 +61,6 @@ public class Questao4Activity extends Activity {
 		        	ck6.setEnabled(true);
 		        	ck7.setEnabled(true);
 		        	ck8.setEnabled(true);
-		        }
-			}
-		});
-		
-		ck8.setOnClickListener(new OnClickListener() {		
-			@Override
-			public void onClick(View v) {
-				if (((CheckBox) v).isChecked()) {
-					LayoutParams lparams = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
-				    edit.setLayoutParams(lparams);
-				    edit.requestFocus();
-					layout.addView(edit, 9);
-		        } else {
-		        	layout.removeView(edit);
 		        }
 			}
 		});

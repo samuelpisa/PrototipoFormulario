@@ -23,9 +23,6 @@
   <CheckBox android:text="Proximidade da residência" android:id="@+id/ck6" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
   <CheckBox android:text="Localização" android:id="@+id/ck7" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
   <CheckBox android:text="Outro" android:id="@+id/ck8" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
-  <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText1">
-      <requestFocus></requestFocus>
-  </EditText>
   
        <LinearLayout android:id="@+id/linearLayout1" android:layout_gravity="clip_vertical" android:layout_width="match_parent" android:orientation="horizontal" android:layout_height="match_parent">
          <Button android:layout_width="wrap_content" android:layout_gravity="bottom" android:layout_height="wrap_content" android:text="Voltar" android:id="@+id/btvoltar"></Button>
