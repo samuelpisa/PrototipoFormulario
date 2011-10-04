@@ -39,6 +39,8 @@ public class Questao1Activity extends Activity {
      
         values.put(DbHelper.ALTERNATIVE_DESC, "DESCRICAO DA ALTERNATIVA" );
         values.put(DbHelper.ALTERNATIVE_QUESTION_ID, 1 );
+        
+        db.insert(DbHelper.TABLE_ALTERNATIVES, null, values);
     
         dbHelper.close();
         db.close();
