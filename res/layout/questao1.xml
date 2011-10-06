@@ -9,7 +9,8 @@
      <RadioGroup
       android:layout_width="fill_parent"
       android:layout_height="wrap_content"
-      android:orientation="vertical">
+      android:orientation="vertical"
+      android:id="@+id/radiogroup1">
     <RadioButton android:textColor="@color/style_textcolor" android:text="Sim, em outra escola particular" android:id="@+id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
     <RadioButton android:textColor="@color/style_textcolor" android:text="Sim, em um outra escola estadual/municipal (público)" android:id="@+id/radioButton2" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
     <RadioButton android:textColor="@color/style_textcolor" android:text="Não, sempre estudei no Colégio GEO" android:id="@+id/radioButton3" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
