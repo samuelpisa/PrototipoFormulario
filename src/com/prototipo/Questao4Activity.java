@@ -78,9 +78,9 @@ public class Questao4Activity extends Activity {
 			public void onClick(View v) {
 				if (((CheckBox) v).isChecked()) {
 					LayoutParams lparams = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
-				    edit.setLayoutParams(lparams);
-				    edit.requestFocus();
+				    edit.setLayoutParams(lparams);		    
 					layout.addView(edit, 9);
+					edit.requestFocus();
 		        } else {
 		        	layout.removeView(edit);
 		        }
